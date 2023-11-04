@@ -1,4 +1,5 @@
 name: SBCore
 version: '${project.version}'
 main: pye.twenty.sbcore.SBCorePlugin
+depend: [SBEssentials, SBMines, WorldGuard, WorldEdit]
 api-version: '1.20'

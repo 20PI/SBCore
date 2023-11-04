@@ -1,9 +1,11 @@
 package pye.twenty.sbcore.player;
 
+import lombok.Getter;
 import org.bukkit.entity.Player;
 
 import java.util.UUID;
 
+@Getter
 public class BoxPlayer {
 
     private final UUID uuid;

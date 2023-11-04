@@ -7,7 +7,7 @@ public final class SBCorePlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        SBCore.INSTANCE.initialize(this);
     }
 
     @Override
